@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ราคาน้ำมันวันนี้</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>ราคาน้ำมันวันนี้</h1>
+        <p>อัปเดตล่าสุด: <span id="update-time">-</span></p>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>ประเภทน้ำมัน</th>
+                    <th>ปตท.</th>
+                    <th>บางจาก</th>
+                    <th>เชลล์</th>
+                    <th>เอสโซ่</th>
+                    <th>คาลเท็กซ์</th>
+                </tr>
+            </thead>
+            <tbody id="fuel-prices"></tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>ข้อมูลจาก <a href="https://gasprice.kapook.com/gasprice.php" target="_blank">Kapook</a></p>
+    </footer>
+</body>
+</html>
